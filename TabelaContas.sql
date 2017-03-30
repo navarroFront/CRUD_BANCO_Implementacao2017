@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Contas]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Numero] NVARCHAR(50) NOT NULL, 
+    [Tipo] NVARCHAR(50) NOT NULL, 
+    [Saldo] DECIMAL NOT NULL, 
+    [Agencia] NVARCHAR(50) NOT NULL
+)
